@@ -19,18 +19,17 @@ export function ReframeSection() {
           <div className="card-soft p-8">
             <span className="section-label">An Important Reframe</span>
             <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl lg:text-[2.75rem]">
-              A Funnel Is Not the Goal.
+              A Pretty Funnel Will Not Save You.
             </h2>
             <div className="mt-6 space-y-5 text-lg leading-relaxed text-muted-foreground">
-              <p>A funnel is just one small piece of the puzzle.</p>
+              <p>A standalone funnel is just one small, isolated piece of the puzzle.</p>
               <p>
-                Stop building isolated funnels. Start building a{" "}
-                <span className="font-semibold text-foreground">connected journey</span> that pulls
-                strangers straight into qualified sales conversations.
+                Stop building disconnected landing pages. Start engineering a{" "}
+                <span className="font-semibold text-foreground">frictionless journey</span> that pulls
+                cold traffic straight into high-ticket sales conversations.
               </p>
               <p>
-                Duxio focuses on engineering the entire client journey, not just handing you another
-                pretty website that doesn't convert.
+                We map, build, and optimize the entire end-to-end client journey—so you never have to worry about "where your next client is coming from" again.
               </p>
             </div>
           </div>

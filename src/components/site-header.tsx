@@ -77,7 +77,7 @@ export function SiteHeader() {
             href="#audit"
             className="inline-flex items-center rounded-full bg-brand-gradient px-4 py-2 text-sm font-semibold text-white shadow-[0_0_15px_rgba(255,255,255,0.1)] transition-all hover:scale-105 hover:opacity-90 hover:shadow-[0_0_20px_rgba(var(--accent),0.5)]"
           >
-            Get Your Custom Breakdown
+            Map My Revenue Leaks
           </a>
         </div>
 
@@ -113,7 +113,7 @@ export function SiteHeader() {
               onClick={() => setOpen(false)}
               className="mt-3 inline-flex items-center justify-center rounded-full bg-brand-gradient px-5 py-3 text-sm font-semibold text-white shadow-[0_0_15px_rgba(255,255,255,0.1)] hover:opacity-90"
             >
-              Get Your Custom Breakdown
+              Map My Revenue Leaks
             </a>
           </nav>
         </div>
