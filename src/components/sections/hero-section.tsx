@@ -1,4 +1,6 @@
 import { Play, ArrowRight, ShieldCheck, Triangle, Hexagon, Circle, Square } from "lucide-react";
+import { Dialog, DialogContent, DialogTrigger, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import { AuditForm } from "@/components/audit-form";
 
 const vslTeasers = [
   "The 5 hidden revenue leaks in your coaching funnel",
@@ -42,13 +44,21 @@ export function HeroSection() {
               <Play className="h-4 w-4 fill-current" />
               Watch the Free Training
             </a>
-            <a
-              href="#audit"
-              className="group inline-flex w-full items-center justify-center gap-2 rounded-full border border-line bg-surface px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:border-foreground/30 sm:w-auto"
-            >
-              Map My Revenue Leaks
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-            </a>
+            <Dialog>
+              <DialogTrigger asChild>
+                <button
+                  className="group inline-flex w-full items-center justify-center gap-2 rounded-full border border-line bg-surface px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:border-foreground/30 sm:w-auto"
+                >
+                  Map My Revenue Leaks
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                </button>
+              </DialogTrigger>
+              <DialogContent className="max-w-xl border-none bg-transparent p-0 shadow-none">
+                <DialogTitle className="sr-only">Free Coach Funnel Audit</DialogTitle>
+                <DialogDescription className="sr-only">Submit your details to get a free funnel audit.</DialogDescription>
+                <AuditForm />
+              </DialogContent>
+            </Dialog>
           </div>
 
           <div className="mt-6 flex flex-col items-center gap-2 sm:flex-row sm:justify-center sm:gap-4">
@@ -169,13 +179,21 @@ function VslPlayer() {
         <p className="text-sm font-medium text-foreground sm:text-base">
           After watching, get your free Coach Funnel Audit.
         </p>
-        <a
-          href="#audit"
-          className="mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-brand-gradient px-6 py-3 text-sm font-semibold text-white transition-all hover:opacity-90 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(var(--accent),0.5)]"
-        >
-          Map My Revenue Leaks
-          <ArrowRight className="h-4 w-4" />
-        </a>
+        <Dialog>
+          <DialogTrigger asChild>
+            <button
+              className="mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-brand-gradient px-6 py-3 text-sm font-semibold text-white transition-all hover:scale-[1.02] hover:opacity-90 hover:shadow-[0_0_30px_rgba(var(--accent),0.5)]"
+            >
+              Map My Revenue Leaks
+              <ArrowRight className="h-4 w-4" />
+            </button>
+          </DialogTrigger>
+          <DialogContent className="max-w-xl border-none bg-transparent p-0 shadow-none">
+            <DialogTitle className="sr-only">Free Coach Funnel Audit</DialogTitle>
+            <DialogDescription className="sr-only">Submit your details to get a free funnel audit.</DialogDescription>
+            <AuditForm />
+          </DialogContent>
+        </Dialog>
       </div>
     </div>
   );

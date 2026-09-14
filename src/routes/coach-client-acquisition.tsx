@@ -7,6 +7,7 @@ import { SystemSection } from "@/components/sections/system-section";
 import { AuditCtaSection } from "@/components/sections/audit-cta-section";
 import { FaqSection } from "@/components/sections/faq-section";
 import { TestimonialSection } from "@/components/sections/testimonial-section";
+import { ExitIntentPopup } from "@/components/exit-intent-popup";
 
 const PAGE_URL = "https://duxio.com/coach-client-acquisition";
 
@@ -132,6 +133,7 @@ function CoachClientAcquisition() {
         <FaqSection />
       </main>
       <SiteFooter />
+      <ExitIntentPopup />
     </div>
   );
 }
