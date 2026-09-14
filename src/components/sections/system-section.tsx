@@ -11,21 +11,21 @@ const steps = [
   {
     n: "02",
     title: "CAPTURE",
-    body: "Give interested prospects an irresistible reason to hand over their contact info.",
+    body: "Give interested prospects an irresistible reason to hand over their contact info, so you own the audience instead of renting it from an algorithm.",
     icon: UserPlus,
     span: "col-span-1 lg:col-span-1",
   },
   {
     n: "03",
     title: "QUALIFY",
-    body: "Filter out the tire-kickers so you only speak to people who are ready to buy.",
+    body: "Filter out the tire-kickers so you only spend your time speaking with prospects who have the budget and urgency to buy today.",
     icon: Filter,
     span: "col-span-1 lg:col-span-1",
   },
   {
     n: "04",
     title: "BOOK",
-    body: "Eliminate the back-and-forth and get qualified prospects directly on your calendar.",
+    body: "Eliminate the email back-and-forth and inject qualified prospects directly onto your calendar while you sleep.",
     icon: CalendarCheck,
     span: "col-span-1 sm:col-span-2 lg:col-span-2",
   },
@@ -39,7 +39,7 @@ const steps = [
   {
     n: "06",
     title: "CONVERT",
-    body: "Step into sales conversations with prospects who are already pre-sold.",
+    body: "Step into sales conversations with prospects who are already pre-sold, making the close a natural conclusion rather than a hard pitch.",
     icon: Handshake,
     span: "col-span-1 lg:col-span-1",
   },
@@ -62,9 +62,7 @@ export function SystemSection() {
             The 7-Part Client Acquisition System
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Most coaches have pieces of this system. The problem is that those pieces aren't
-            connected. Here's the full journey, from attention to a qualified sales conversation. 
-            When this works correctly, you get more qualified conversations, less wasted marketing spend, and more time back.
+            You don't have a traffic problem; you have a capture problem. Most coaches have fragmented funnels that leak prospects at every step. Here is the exact end-to-end architecture that patches those leaks and guides premium prospects directly to a sales conversation.
           </p>
         </div>
 

@@ -60,11 +60,10 @@ export function AuditCtaSection() {
           <div className="lg:col-span-2">
             <span className="section-label">Free Coach Funnel Audit</span>
             <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl">
-              Let's Find Your Missing Revenue.
+              Stop Guessing. Let Us Find Your Revenue Leaks.
             </h2>
-            <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-              Get a free breakdown of your current client acquisition journey and discover where you
-              may be losing leads, bookings, and sales opportunities.
+            <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
+              Submit your current funnel details below. We will map out your exact acquisition flow, pinpoint where high-ticket clients are dropping off, and show you exactly how to fix it—zero obligations.
             </p>
 
             <div className="mt-10 space-y-6">

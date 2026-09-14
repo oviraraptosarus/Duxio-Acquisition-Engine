@@ -1,9 +1,9 @@
 import { Play, ArrowRight, ShieldCheck } from "lucide-react";
 
 const vslTeasers = [
-  "The 5 places coaches lose clients",
-  "How to capture interested prospects",
-  "A simple follow-up system that recovers opportunities",
+  "The 5 hidden revenue leaks in your coaching funnel",
+  "How to ethically capture \"lurking\" prospects",
+  "The exact follow-up sequence that doubles show-up rates",
 ];
 
 export function HeroSection() {
@@ -27,11 +27,11 @@ export function HeroSection() {
           </span>
 
           <h1 className="mt-7 text-4xl leading-[1.05] font-semibold tracking-tight text-foreground sm:text-5xl lg:text-[3.5rem]">
-            Book More Coaching Clients Without Buying More Leads.
+            Add 3-5 High-Ticket Coaching Clients This Month (Without Buying Generic Leads).
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            Stop letting interested prospects slip away. Discover the 5-step system that turns your existing audience into qualified calendar appointments.
+            90% of your audience is consuming your content but never booking a call. Discover the 7-part architecture that captures lost traffic and turns passive followers into pre-sold calendar appointments.
           </p>
 
           <div className="mt-9 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
