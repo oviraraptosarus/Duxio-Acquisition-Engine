@@ -1,4 +1,4 @@
-import { Play, ArrowRight, ShieldCheck } from "lucide-react";
+import { Play, ArrowRight, ShieldCheck, Triangle, Hexagon, Circle, Square } from "lucide-react";
 
 const vslTeasers = [
   "The 5 hidden revenue leaks in your coaching funnel",
@@ -46,7 +46,7 @@ export function HeroSection() {
               href="#audit"
               className="group inline-flex w-full items-center justify-center gap-2 rounded-full border border-line bg-surface px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:border-foreground/30 sm:w-auto"
             >
-              Reveal My Hidden Revenue Leaks
+              Map My Revenue Leaks
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </a>
           </div>
@@ -68,6 +68,31 @@ export function HeroSection() {
         </div>
 
         <VslPlayer />
+
+        {/* Social Proof Banner */}
+        <div className="mt-24 border-t border-line/50 pt-10 text-center">
+          <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+            Trusted by coaches scaling past $50k/mo
+          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-8 opacity-60 grayscale sm:gap-16">
+            <div className="flex items-center gap-2 text-xl font-bold text-foreground">
+              <Triangle className="h-6 w-6 fill-foreground" />
+              VERTEX
+            </div>
+            <div className="flex items-center gap-2 text-xl font-bold text-foreground">
+              <Hexagon className="h-6 w-6 fill-foreground" />
+              NEXUS
+            </div>
+            <div className="flex items-center gap-2 text-xl font-bold text-foreground">
+              <Circle className="h-6 w-6 fill-foreground" />
+              LUMEN
+            </div>
+            <div className="flex items-center gap-2 text-xl font-bold text-foreground">
+              <Square className="h-6 w-6 fill-foreground" />
+              QUARTZ
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -148,7 +173,7 @@ function VslPlayer() {
           href="#audit"
           className="mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-brand-gradient px-6 py-3 text-sm font-semibold text-white transition-all hover:opacity-90 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(var(--accent),0.5)]"
         >
-          Reveal My Hidden Revenue Leaks
+          Map My Revenue Leaks
           <ArrowRight className="h-4 w-4" />
         </a>
       </div>
